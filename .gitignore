@@ -398,15 +398,79 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Swift Development
-.build/
-.packages/
-
+#### IOS / Mac OS Development
+# Xcode
+#
 .DS_Store
+*.swp
+*~.nib
+*~.nib~
+
+# User- and system-specific files
+xcuserdata/
+
+# Build products
+build/
+Build/
+DerivedData/
+
+# Logs
+*.log
+
+# OS X
+#
+.AppleDouble
+.LSOverride
+Icon
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+*.xcuserstate
+
+# Swift Package Manager
+#
+.build/
+
+# CocoaPods
+#
+Pods/
+
+# Carthage
+#
+Carthage/Build/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/*.png
+fastlane/test_output/
+
+# Xcode 11+
+#
+*.xcresult
+
+# Xcode project files
+project.xcworkspace/
+xcuserdata/
+
+# SwiftPM
+.build/
+Package.resolved
+
+# Various settings files
+.idea/
+.vscode/
+
+# SPM
+.swiftpm/
+
+# Others
+.packages/
 /.build
 /Packages
-xcuserdata/
-DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
